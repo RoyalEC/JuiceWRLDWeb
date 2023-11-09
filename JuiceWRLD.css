@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color for contrast */
+  }
+  
+  header, footer {
+    background-color: #212529; /* Darker background for header/footer */
+    color: #ff6b6b; /* Accent color for header/footer text */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff; /* White color for nav links */
+  }
+  
+  nav a:hover {
+    color: #d3d3d3; /* Light gray for hover state */
+  }
+  
+  .juice-wrld-header, .latest-news, #sample-music {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Carousel Styles */
+  .carousel-item {
+    max-width: 100%; /* Ensure carousel is responsive */
+    border: 2px solid #4b0082; /* Purple border for images */
+  }
+  
+  /* Store Item Styles */
+  .store-item {
+    background-color: #333; /* Slightly lighter background for items */
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #4b0082; /* Purple background for buttons */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+  }
+  
+  button:hover {
+    background-color: #260541; /* Darker purple for button hover */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #212529; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  /* Utility Classes */
+  .text-light {
+    color: #fff; /* White text utility class */
+  }
+  
+  .bg-dark {
+    background-color: #212529; /* Dark background utility class */
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .fadeIn {
+    animation: fadeIn 2s ease;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    nav li {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
