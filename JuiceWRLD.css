@@ -85,7 +85,7 @@ body {
     animation: fadeIn 2s ease;
   }
   
-  /* Media Queries for Responsiveness */
+  
   @media (max-width: 768px) {
     nav li {
       display: block;
@@ -94,3 +94,5 @@ body {
     }
   }
   
+
+

@@ -39,9 +39,29 @@
           shop for exclusive merchandise here.
         </p>
       </section>
-
-      <!-- Carousel Section -->
-      <!-- Placeholder for Carousel content -->
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="ratio ratio-16x9">
+            <div class="carousel-item active">
+                <img src="/JuiceWRLDWeb/fighting-demonfs.jpeg" class="d-block w-100" alt="...">
+            </div>
+          <div class="carousel-item">
+            <img src="/JuiceWRLDWeb/Legends.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/JuiceWRLDWeb/TheLight.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
 
       <!-- Latest News Section -->
       <section id="latest-news" class="mb-4">
@@ -49,16 +69,56 @@
         <p>
           Check out Juice WRLD's upcoming tour dates and latest album news here.
         </p>
-        <!-- Additional content(Table for Tours) -->
+        <h2>Upcoming Tours</h2>
+        <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">City</th>
+                <th scope="col">Venue</th>
+                <th scope="col">Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">December 1st, 2023</th>
+                <td>Toronto</td>
+                <td>Canada Stadium</td>
+                <td>$129.99</td>
+              </tr>
+              <tr>
+                <th scope="row">December 4th, 2023</th>
+                <td>Atlanta</td>
+                <td>State Farm Arena</td>
+                <td>$199.99</td>
+              </tr>
+              <tr>
+                <th scope="row">December 7th, 2023</th>
+                <td>Miami</td>
+                <td>Miami Arena</td>
+                <td>$219.99</td>
+              </tr>
+            </tbody>
+          </table>
       </section>
 
       <!-- Sample Music Section -->
       <section id="sample-music" class="mb-4">
         <h2>Listen to Juice WRLD</h2>
         <p>
-          Experience the sound of Juice WRLD on your favorite music platform.
+          Experience the sound of Juice WRLD live action!
         </p>
-        <!-- Links to music platforms and/or embedded music player -->
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Purchase Tickets
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Toronto $129.99</a></li>
+              <li><a class="dropdown-item" href="#">Atlanta $199.99</a></li>
+              <li><a class="dropdown-item" href="#">Miami $219.99</a></li>
+            </ul>
+          </div>
       </section>
     </main>
     <footer class="py-3">
