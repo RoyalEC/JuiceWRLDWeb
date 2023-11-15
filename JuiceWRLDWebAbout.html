@@ -9,44 +9,26 @@
       content="Learn about Juice WRLD, his music, and legacy."
     />
     <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css"
-    />
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="JuiceWRLD.css" />
     <style>
       body {
         background-color: #000;
         color: #fff;
         font-family: "Arial", sans-serif;
+  
       }
 
       header {
         background-color: #212529;
         color: #ff6b6b;
-        padding: 1rem 0;
-      }
-
-      nav ul {
-        list-style: none;
-        padding: 0;
-      }
-
-      nav li {
-        display: inline;
-        margin-right: 20px;
-      }
-
-      nav a {
-        text-decoration: none;
-        color: #fff;
-      }
-
-      nav a:hover {
-        color: #d3d3d3;
       }
 
       .fade-in {
-        animation: fadeIn 2s;
+        animation: fadeIn 4s;
+        text-align: center;
       }
 
       @keyframes fadeIn {
@@ -79,32 +61,21 @@
         color: #ff6b6b;
       }
 
-      .table thead th {
-        border-color: #4b0082;
-      }
-
-      .table tbody td {
-        border-color: #4b0082;
-      }
-
-      .table tbody tr:nth-of-type(odd) {
-        background-color: #333;
-      }
     </style>
   </head>
   <body>
-    <header class="text-center">
+    <header class="bg-dark py-2">
       <nav class="container">
-        <ul class="nav justify-content-center mb-3">
+        <ul class="nav justify-content-center">
           <li class="nav-item">
             <a href="JuiceWRLDWeb.html" class="nav-link">HOME</a>
           </li>
           <li class="nav-item">
-            <a href="JuiceWRLDWebStore.html" class="nav-link">STORE</a>
-          </li>
-          <li class="nav-item">
-            <a href="JuiceWRLDWebAbout.html" class="nav-link">ABOUT</a>
-          </li>
+              <a href="JuiceWRLDWebAbout.html" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="JuiceWRLDWebStore.html" class="nav-link">STORE</a>
+            </li>
         </ul>
       </nav>
       <h1 class="fade-in">Juice WRLD</h1>
@@ -134,11 +105,10 @@
       </section>
     </main>
 
-    <footer>
-      <h3>Connect with Juice WRLD</h3>
-      <ul>
-        <li>
-          <img
+    <footer class="py-3">
+      <div class="container text-center">
+        <p> 2023 Juice WRLD's Official Website</p>
+        <img
             class="social-icon"
             src="data:image/jpeg;base64,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"
             width="100px"
@@ -164,9 +134,9 @@
             alt="Spotify Logo"
           />
         </li>
-      </ul>
+      </div>
     </footer>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
